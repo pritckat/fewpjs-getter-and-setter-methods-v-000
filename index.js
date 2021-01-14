@@ -14,4 +14,8 @@ class Circle {
   get area() {
     return Math.PI * this.radius ** 2
   }
+
+  set diameter(n) {
+    this.radius = n / 2
+  }
 }
